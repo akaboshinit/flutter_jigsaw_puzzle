@@ -223,7 +223,6 @@ class JigsawWidgetState extends State<JigsawWidget> {
   @override
   void initState() {
     _carouselController = CarouselController();
-    generate();
     super.initState();
   }
 
